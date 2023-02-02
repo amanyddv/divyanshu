@@ -45,7 +45,6 @@ export class ContactComponent implements OnInit {
     
     
 
-    console.log(contact)
   }
 
 }
