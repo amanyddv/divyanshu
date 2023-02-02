@@ -1,0 +1,9 @@
+<div class="body">
+
+    <div class="row row-cols-lg-3   ">
+        <div class="col col-1 card" *ngFor="let project of projects">
+            <img src="./assets/project/{{project.image}}" alt=""  id="image" >
+            <h4 id="title" >{{project.title}}</h4>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+
+<div class="body">
+    <div class="adminSection"> Contact us
+        <section style=" position:static; margin-top: 15vh;"><img src="./assets/gmail.png" width="30vw">sdivyanshu352@gmail.com </section>
+        
+        <section style=" position:static; margin-top: 5vh;"><img src="./assets/call.png" width="30vw">+91 9794763252</section>
+
+    </div>
+    <div class="userSection"><h4 style=" position:static; text-align:center; font-size: x-large;">Send us a message</h4>
+        <form  #contact="ngForm" (ngSubmit)="send(contact.value)" style=" position:static; margin-top: 4vh; margin-left: 5vw; color: rgb(255, 255, 255);">
+            <label >Name</label><br>
+            <input type="text" name="name" [(ngModel)]="name" id="name"><br>
+            <label>Email</label><br>
+            <input type="text" name="email" [(ngModel)]="email" id="email"> <br>
+
+            <label>Upload file</label><br>
+            <input type="file" name="file" [(ngModel)]="file" id="file" (change)="image($event)"> <br>
+
+            <label >Message</label><br>
+            <textarea ngModel name="message" [(ngModel)]="message" id="message" placeholder="Enter text here..."></textarea><br>
+
+
+            <button class="button-33" type="submit">Send</button>
+
+
+
+        </form>
+    </div>
+</div>

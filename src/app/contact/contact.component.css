@@ -1,0 +1,167 @@
+.body{
+    position:static ;
+    background-color: rgb(255, 255, 255);
+    float:right;
+  padding-top: 8vh; 
+    height: 100vh;
+    width: 87vw
+}
+
+
+.adminSection {
+    position: static;
+
+    text-align: center;
+    font-size: 3vh;
+    color: aliceblue;
+    padding-top: 2vh;
+
+    width: 26vw;
+    height: 71vh;
+    margin-top: 12vh;
+    background-color: rgb(50, 48, 48);
+
+    display: block;
+    float: left;
+    margin-left: 17vw;
+    margin-right: auto;
+}
+
+.userSection {
+    position: static;
+
+    font-size: 3vh;
+    color: aliceblue;
+    padding-top: 2vh;
+    width: 30vw;
+    height: 71vh;
+    left: 54vw;
+    margin-top: 12vh;
+
+    background: rgb(232, 149, 101);
+
+    display: block;
+    margin-left:43vw;
+}
+#name{
+    width:18vw;  height:4vh;
+    margin-bottom: 0.5vh;
+
+} 
+#email{
+    width:18vw;  height:4vh;
+    margin-bottom: 0.5vh;
+
+}
+#file{
+    margin-bottom: 0.5vh;
+
+}
+#message{
+    position:static;  font-size:large; width:18vw;  height:20vh;
+    margin-bottom: 0.5vh;
+
+}
+
+.button-33 {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgb(196, 184, 178) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: rgb(232, 149, 101);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 1vh 2vw;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+           
+    display: block;
+    
+  }
+  
+  .button-33:hover {
+    box-shadow: rgba(250, 202, 68, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+    .body{
+        position:static ;
+        background-color: rgb(255, 255, 255);
+        float:none;
+      padding-top: 6vh; 
+        height: 100vh;
+        width: 100%
+    }
+    .adminSection {
+       display: none;
+       float: none;
+
+    }
+    .userSection {
+        position: static;
+
+    font-size: 2vh;
+    color: aliceblue;
+    padding-top: 1vh;
+    width: 95vw;
+    height: 71vh;
+    left: none;
+    margin-top:4vh;
+
+
+    background: rgb(232, 149, 101);
+
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    }
+    #name{
+        width:85vw;  height:4vh;
+        margin-bottom: 0.5vh;
+    
+    } 
+    #email{
+        width:85vw;  height:4vh;
+        margin-bottom: 0.5vh;
+    
+    }
+    #file{
+        margin-bottom: 0.5vh;
+    
+    }
+    #message{
+        position:static;  font-size:large; width:85vw;  height:20vh;
+        margin-bottom: 2vh;
+    
+    }
+
+    .button-33 {
+        background-color: #c2fbd7;
+        border-radius: 100px;
+        box-shadow: rgb(196, 184, 178) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+        color: rgb(232, 149, 101);
+        cursor: pointer;
+        display: inline-block;
+        font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+        padding: 1vh 8vw;
+        text-align: center;
+        text-decoration: none;
+        transition: all 250ms;
+        border: 0;
+        font-size: 16px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+
+        
+    display: block;
+      }
+  }

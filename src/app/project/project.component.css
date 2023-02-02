@@ -1,0 +1,62 @@
+   
+.body{
+    position:static ;
+    background-color: rgb(255, 255, 255);
+    float:right;
+  padding-top: 8vh; 
+  padding-left: 18vh; 
+
+  height: 100vh;
+    width: 87vw
+}
+
+#image{
+    width: 20vw;
+    height: 11vw;
+    padding: 0.4vw;
+}
+#title{
+    text-align: center;
+}
+.card{
+    position: static;
+    background-color: rgb(255, 228, 74);
+    color: rgb(43, 27, 36);
+    padding: 0vw;
+    width: 20vw;
+    height:13vw;
+  margin: 3vw;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .body{
+    position:static ;
+    background-color: rgb(255, 255, 255);
+    float:none;
+  padding-top: 6vh; 
+  padding-left: 0vh; 
+
+  height: 100vh;
+    width: 100vw
+}
+#image{
+  width: 80vw;
+  height: 20vh;
+  padding: 0.6vw;
+}
+.card{
+  position: static;
+  background-color: rgb(255, 228, 74);
+  color: rgb(43, 27, 36);
+  padding: 0vw;
+  width: 80vw;
+  height:25vh;
+
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+}

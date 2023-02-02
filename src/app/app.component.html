@@ -1,0 +1,39 @@
+<header class="header">
+  
+  
+  
+    <label for="toggle" class="toggle" ><img src="./assets/toggle.png" width="0.2vw" ></label>
+    <button (click)="toggle()" id="toggle"  ></button>
+
+    
+
+  <img src="./assets/profile.jpg" alt="" class="icon">
+
+</header>
+
+<router-outlet></router-outlet>
+
+
+
+
+<div class="footer" *ngIf="footer">
+  <ul>
+  <li> Divyanshu Singh</li>
+    <li><a routerLink="about" > About</a></li>
+    <li><a routerLink="project"> Project </a></li>
+    <li><a routerLink="contact"> Contact </a></li>
+
+    
+  
+    <li><a href="https://github.com/Divyanshu9794"><img src="./assets/github.jpeg" width="30vw"></a></li>
+    <li><a href="https://www.linkedin.com/in/divyanshu-singh-3b433119b/"><img src="./assets/linkedin.png" width="30vw"></a></li>
+    <li><a href="https://twitter.com/divyans77473552"><img src="./assets/twitter.png" width="30vw"></a></li>
+  
+  
+
+    <li><audio controls id="song" >
+        <source src="./assets/song/{{nxtsong}}" type="audio/mpeg">
+      </audio></li>
+
+  </ul>
+</div>
