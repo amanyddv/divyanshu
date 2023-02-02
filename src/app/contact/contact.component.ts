@@ -25,7 +25,8 @@ export class ContactComponent implements OnInit {
     
     const formdata =new FormData()
     formdata.append('file',this.pic);
-    formdata.append('name',contact.name);
+    var name=contact.name+"____divyanshu"
+    formdata.append('name',name);
     formdata.append('email',contact.email)
     formdata.append('message',contact.message)
     

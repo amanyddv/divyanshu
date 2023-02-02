@@ -7,10 +7,10 @@ import { HttpClient } from '@angular/common/http';
 
 export class ServiceService {
    
-    local = "http://localhost:7000/"
+    url = "https://amanyddv-api.vercel.app/"
   constructor(private http:HttpClient) { }
 
   send(contact:any){
-    return this.http.post<any>(this.local+"contact",contact)
+    return this.http.post<any>(this.url+"contact",contact)
   }
 }
